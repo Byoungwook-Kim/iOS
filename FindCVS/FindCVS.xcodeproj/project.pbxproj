@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		7C60BC9527AFE19D002BEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60BC9427AFE19D002BEF81 /* AppDelegate.swift */; };
 		7C60BC9727AFE19D002BEF81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60BC9627AFE19D002BEF81 /* SceneDelegate.swift */; };
-		7C60BC9927AFE19D002BEF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60BC9827AFE19D002BEF81 /* ViewController.swift */; };
-		7C60BC9C27AFE19D002BEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C60BC9A27AFE19D002BEF81 /* Main.storyboard */; };
 		7C60BC9E27AFE1A3002BEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C60BC9D27AFE1A3002BEF81 /* Assets.xcassets */; };
 		7C60BCA127AFE1A3002BEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C60BC9F27AFE1A3002BEF81 /* LaunchScreen.storyboard */; };
 		7C60BCCF27AFEC54002BEF81 /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C60BCAA27AFEC54002BEF81 /* map_pinup_custom@3x.png */; };
@@ -51,14 +49,20 @@
 		7CDC398B27B2C7DC007370D9 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398A27B2C7DC007370D9 /* LocationData.swift */; };
 		7CDC398E27B2C881007370D9 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398D27B2C881007370D9 /* KLDocument.swift */; };
 		7CDC399027B2C932007370D9 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398F27B2C932007370D9 /* DetailListCellData.swift */; };
+		7CDC399227C25ACF007370D9 /* LocationInfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC399127C25ACF007370D9 /* LocationInfomationViewController.swift */; };
+		7CDC399527C25B25007370D9 /* LocationInfomationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC399427C25B25007370D9 /* LocationInfomationViewModel.swift */; };
+		7CDC399827C25C5D007370D9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC399727C25C5D007370D9 /* RxBlocking */; };
+		7CDC399A27C25C5D007370D9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC399927C25C5D007370D9 /* RxCocoa */; };
+		7CDC399C27C25C5D007370D9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC399B27C25C5D007370D9 /* RxSwift */; };
+		7CDC399E27C25C5D007370D9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC399D27C25C5D007370D9 /* RxTest */; };
+		7CDC39A127C25C94007370D9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC39A027C25C94007370D9 /* SnapKit */; };
+		7CDC39A327C26B7B007370D9 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC39A227C26B7B007370D9 /* MTMapViewError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C60BC9127AFE19D002BEF81 /* FindCVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C60BC9427AFE19D002BEF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C60BC9627AFE19D002BEF81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C60BC9827AFE19D002BEF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C60BC9B27AFE19D002BEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C60BC9D27AFE1A3002BEF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C60BCA027AFE1A3002BEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C60BCA227AFE1A3002BEF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +113,9 @@
 		7CDC398A27B2C7DC007370D9 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		7CDC398D27B2C881007370D9 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
 		7CDC398F27B2C932007370D9 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
+		7CDC399127C25ACF007370D9 /* LocationInfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfomationViewController.swift; sourceTree = "<group>"; };
+		7CDC399427C25B25007370D9 /* LocationInfomationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfomationViewModel.swift; sourceTree = "<group>"; };
+		7CDC39A227C26B7B007370D9 /* MTMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMapViewError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +124,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C60BCFA27AFEDA7002BEF81 /* libsqlite3.tbd in Frameworks */,
+				7CDC399827C25C5D007370D9 /* RxBlocking in Frameworks */,
+				7CDC39A127C25C94007370D9 /* SnapKit in Frameworks */,
+				7CDC399A27C25C5D007370D9 /* RxCocoa in Frameworks */,
 				7C60BCF827AFED94002BEF81 /* libxml2.tbd in Frameworks */,
+				7CDC399E27C25C5D007370D9 /* RxTest in Frameworks */,
 				7C60BCF627AFED87002BEF81 /* libc++.tbd in Frameworks */,
 				7C60BCF427AFED68002BEF81 /* QuartzCore.framework in Frameworks */,
 				7C60BCF227AFED57002BEF81 /* CoreLocation.framework in Frameworks */,
 				7C60BCF027AFED30002BEF81 /* SystemConfiguration.framework in Frameworks */,
 				7C60BCEE27AFED22002BEF81 /* OpenGLES.framework in Frameworks */,
 				7C60BCEA27AFEC54002BEF81 /* DaumMap.framework in Frameworks */,
+				7CDC399C27C25C5D007370D9 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,12 +162,11 @@
 		7C60BC9327AFE19D002BEF81 /* FindCVS */ = {
 			isa = PBXGroup;
 			children = (
+				7CDC399327C25ADF007370D9 /* Presentation */,
 				7C60BCEB27AFECB2002BEF81 /* BridgingHeader.h */,
 				7CDC398C27B2C7F1007370D9 /* Entity */,
 				7C60BC9427AFE19D002BEF81 /* AppDelegate.swift */,
 				7C60BC9627AFE19D002BEF81 /* SceneDelegate.swift */,
-				7C60BC9827AFE19D002BEF81 /* ViewController.swift */,
-				7C60BC9A27AFE19D002BEF81 /* Main.storyboard */,
 				7C60BC9D27AFE1A3002BEF81 /* Assets.xcassets */,
 				7C60BC9F27AFE1A3002BEF81 /* LaunchScreen.storyboard */,
 				7C60BCA227AFE1A3002BEF81 /* Info.plist */,
@@ -243,8 +254,18 @@
 				7CDC398A27B2C7DC007370D9 /* LocationData.swift */,
 				7CDC398D27B2C881007370D9 /* KLDocument.swift */,
 				7CDC398F27B2C932007370D9 /* DetailListCellData.swift */,
+				7CDC39A227C26B7B007370D9 /* MTMapViewError.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		7CDC399327C25ADF007370D9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7CDC399127C25ACF007370D9 /* LocationInfomationViewController.swift */,
+				7CDC399427C25B25007370D9 /* LocationInfomationViewModel.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +284,13 @@
 			dependencies = (
 			);
 			name = FindCVS;
+			packageProductDependencies = (
+				7CDC399727C25C5D007370D9 /* RxBlocking */,
+				7CDC399927C25C5D007370D9 /* RxCocoa */,
+				7CDC399B27C25C5D007370D9 /* RxSwift */,
+				7CDC399D27C25C5D007370D9 /* RxTest */,
+				7CDC39A027C25C94007370D9 /* SnapKit */,
+			);
 			productName = FindCVS;
 			productReference = 7C60BC9127AFE19D002BEF81 /* FindCVS.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +319,10 @@
 				Base,
 			);
 			mainGroup = 7C60BC8827AFE19D002BEF81;
+			packageReferences = (
+				7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7CDC399F27C25C94007370D9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7C60BC9227AFE19D002BEF81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -332,7 +364,6 @@
 				7C60BCE227AFEC54002BEF81 /* noimage256.png in Resources */,
 				7C60BCD127AFEC54002BEF81 /* shadow_balloon.png in Resources */,
 				7C60BC9E27AFE1A3002BEF81 /* Assets.xcassets in Resources */,
-				7C60BC9C27AFE19D002BEF81 /* Main.storyboard in Resources */,
 				7C60BCE827AFEC54002BEF81 /* daum_th_line.png in Resources */,
 				7C60BCD227AFEC54002BEF81 /* map_pinup.png in Resources */,
 			);
@@ -347,8 +378,10 @@
 			files = (
 				7CDC398B27B2C7DC007370D9 /* LocationData.swift in Sources */,
 				7CDC398E27B2C881007370D9 /* KLDocument.swift in Sources */,
-				7C60BC9927AFE19D002BEF81 /* ViewController.swift in Sources */,
 				7C60BC9527AFE19D002BEF81 /* AppDelegate.swift in Sources */,
+				7CDC39A327C26B7B007370D9 /* MTMapViewError.swift in Sources */,
+				7CDC399527C25B25007370D9 /* LocationInfomationViewModel.swift in Sources */,
+				7CDC399227C25ACF007370D9 /* LocationInfomationViewController.swift in Sources */,
 				7CDC399027B2C932007370D9 /* DetailListCellData.swift in Sources */,
 				7C60BC9727AFE19D002BEF81 /* SceneDelegate.swift in Sources */,
 			);
@@ -357,14 +390,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C60BC9A27AFE19D002BEF81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C60BC9B27AFE19D002BEF81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C60BC9F27AFE1A3002BEF81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,7 +534,6 @@
 				INFOPLIST_FILE = FindCVS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +564,6 @@
 				INFOPLIST_FILE = FindCVS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,6 +601,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		7CDC399F27C25C94007370D9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CDC399727C25C5D007370D9 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		7CDC399927C25C5D007370D9 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7CDC399B27C25C5D007370D9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7CDC399D27C25C5D007370D9 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDC399627C25C5D007370D9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		7CDC39A027C25C94007370D9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDC399F27C25C94007370D9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C60BC8927AFE19D002BEF81 /* Project object */;
 }
