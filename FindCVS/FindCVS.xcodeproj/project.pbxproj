@@ -46,6 +46,7 @@
 		7C60BCF627AFED87002BEF81 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C60BCF527AFED87002BEF81 /* libc++.tbd */; };
 		7C60BCF827AFED94002BEF81 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C60BCF727AFED94002BEF81 /* libxml2.tbd */; };
 		7C60BCFA27AFEDA7002BEF81 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C60BCF927AFEDA7002BEF81 /* libsqlite3.tbd */; };
+		7CCE944727DE182C007CE380 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE944627DE182C007CE380 /* DetailListCell.swift */; };
 		7CDC398B27B2C7DC007370D9 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398A27B2C7DC007370D9 /* LocationData.swift */; };
 		7CDC398E27B2C881007370D9 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398D27B2C881007370D9 /* KLDocument.swift */; };
 		7CDC399027B2C932007370D9 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC398F27B2C932007370D9 /* DetailListCellData.swift */; };
@@ -110,6 +111,7 @@
 		7C60BCF527AFED87002BEF81 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7C60BCF727AFED94002BEF81 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		7C60BCF927AFEDA7002BEF81 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7CCE944627DE182C007CE380 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
 		7CDC398A27B2C7DC007370D9 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		7CDC398D27B2C881007370D9 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
 		7CDC398F27B2C932007370D9 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 			children = (
 				7CDC399127C25ACF007370D9 /* LocationInfomationViewController.swift */,
 				7CDC399427C25B25007370D9 /* LocationInfomationViewModel.swift */,
+				7CCE944627DE182C007CE380 /* DetailListCell.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				7CDC398E27B2C881007370D9 /* KLDocument.swift in Sources */,
 				7C60BC9527AFE19D002BEF81 /* AppDelegate.swift in Sources */,
 				7CDC39A327C26B7B007370D9 /* MTMapViewError.swift in Sources */,
+				7CCE944727DE182C007CE380 /* DetailListCell.swift in Sources */,
 				7CDC399527C25B25007370D9 /* LocationInfomationViewModel.swift in Sources */,
 				7CDC399227C25ACF007370D9 /* LocationInfomationViewController.swift in Sources */,
 				7CDC399027B2C932007370D9 /* DetailListCellData.swift in Sources */,
@@ -438,6 +442,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -500,6 +505,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
