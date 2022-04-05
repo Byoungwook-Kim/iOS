@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+
 @main
-struct SelectRegionView: App {
+struct SelectRegionView: View {
     @ObservedObject var viewModel = SelectRegionViewModel()
     
     private var items: [GridItem] {
