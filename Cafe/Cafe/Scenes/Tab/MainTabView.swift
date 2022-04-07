@@ -43,7 +43,7 @@ struct SampleLazyHStack: View {
         ScrollView(.horizontal) {
         LazyHStack {
             ForEach(numbers) { number in
-                Text("\(number.value)")
+                Text("\(number.value)") 
             }
             
         }
