@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         window?.backgroundColor = .systemBackground
-        window?.rootViewController = ReviewListViewController()
+        window?.rootViewController = UINavigationController(rootViewController: ReviewListViewController())
         window?.makeKeyAndVisible()
     }
 
