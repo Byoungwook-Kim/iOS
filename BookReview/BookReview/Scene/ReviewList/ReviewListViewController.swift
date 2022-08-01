@@ -23,6 +23,12 @@ final class ReviewListViewController: UIViewController {
         
         presenter.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        presenter.viewWillAppear()
+    }
 
 }
 
@@ -34,8 +40,7 @@ extension ReviewListViewController: ReviewListProtocol {
         let rightBarButtonItem = UIBarButtonItem(
             barButtonSystemItem: .add,
             target: self,
-            action: nil
-        )
+            action: #selector(didTapRightBarButtonItem)        )
         navigationItem.rightBarButtonItem = rightBarButtonItem
     }
     
@@ -45,6 +50,24 @@ extension ReviewListViewController: ReviewListProtocol {
         tableView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
+    }
+    
+    func presentToReviewWriteViewController() {
+        let vc = UINavigationController(rootViewController: ReviewWriteViewController())
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    
+    func reloadTableView() {
+        tableView.reloadData()
+        
+        print("최신데이터 갱신")
+    }
+}
+
+private extension ReviewListViewController {
+    @objc func didTapRightBarButtonItem() {
+        presenter.didTapRightBarButtonItem()
     }
 }
 

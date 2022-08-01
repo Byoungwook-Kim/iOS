@@ -19,6 +19,8 @@
 		7C603C7D288EE4D700132EC5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7C603C7C288EE4D700132EC5 /* Alamofire */; };
 		7C603C80288EE4F500132EC5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7C603C7F288EE4F500132EC5 /* Kingfisher */; };
 		7C603C82288EE8EC00132EC5 /* ReviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C603C81288EE8EC00132EC5 /* ReviewListPresenter.swift */; };
+		7C934CB928980E820095D382 /* ReviewWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C934CB828980E820095D382 /* ReviewWriteViewController.swift */; };
+		7C934CBB28980EA30095D382 /* ReviewWritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C934CBA28980EA30095D382 /* ReviewWritePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		7C603C67288EE04500132EC5 /* BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITests.swift; sourceTree = "<group>"; };
 		7C603C69288EE04500132EC5 /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C603C81288EE8EC00132EC5 /* ReviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenter.swift; sourceTree = "<group>"; };
+		7C934CB828980E820095D382 /* ReviewWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWriteViewController.swift; sourceTree = "<group>"; };
+		7C934CBA28980EA30095D382 /* ReviewWritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +149,18 @@
 			isa = PBXGroup;
 			children = (
 				7C603C83288EE90000132EC5 /* ReviewList */,
+				7C934CBC28980EAD0095D382 /* ReviewWrite */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		7C934CBC28980EAD0095D382 /* ReviewWrite */ = {
+			isa = PBXGroup;
+			children = (
+				7C934CB828980E820095D382 /* ReviewWriteViewController.swift */,
+				7C934CBA28980EA30095D382 /* ReviewWritePresenter.swift */,
+			);
+			path = ReviewWrite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C934CBB28980EA30095D382 /* ReviewWritePresenter.swift in Sources */,
 				7C603C4B288EE04400132EC5 /* ReviewListViewController.swift in Sources */,
 				7C603C47288EE04400132EC5 /* AppDelegate.swift in Sources */,
+				7C934CB928980E820095D382 /* ReviewWriteViewController.swift in Sources */,
 				7C603C82288EE8EC00132EC5 /* ReviewListPresenter.swift in Sources */,
 				7C603C49288EE04400132EC5 /* SceneDelegate.swift in Sources */,
 			);
