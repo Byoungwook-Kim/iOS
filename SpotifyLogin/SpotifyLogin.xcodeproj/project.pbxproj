@@ -14,6 +14,7 @@
 		7C7AE60529100C7F0018196A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7AE60429100C7F0018196A /* Assets.xcassets */; };
 		7C7AE60829100C7F0018196A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7AE60629100C7F0018196A /* LaunchScreen.storyboard */; };
 		7C7AE61029100CDA0018196A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7AE60F29100CDA0018196A /* LoginViewController.swift */; };
+		7C865F2F291169520077229E /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C865F2E291169520077229E /* EnterEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7C7AE60729100C7F0018196A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C7AE60929100C7F0018196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C7AE60F29100CDA0018196A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7C865F2E291169520077229E /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7C7AE5F829100C7E0018196A /* AppDelegate.swift */,
 				7C7AE5FA29100C7E0018196A /* SceneDelegate.swift */,
 				7C7AE5FE29100C7E0018196A /* Main.storyboard */,
+				7C865F2E291169520077229E /* EnterEmailViewController.swift */,
 				7C7AE60F29100CDA0018196A /* LoginViewController.swift */,
 				7C7AE60429100C7F0018196A /* Assets.xcassets */,
 				7C7AE60629100C7F0018196A /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				7C7AE61029100CDA0018196A /* LoginViewController.swift in Sources */,
 				7C7AE60329100C7E0018196A /* SpotifyLogin.xcdatamodeld in Sources */,
 				7C7AE5F929100C7E0018196A /* AppDelegate.swift in Sources */,
+				7C865F2F291169520077229E /* EnterEmailViewController.swift in Sources */,
 				7C7AE5FB29100C7E0018196A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
